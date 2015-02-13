@@ -1,98 +1,50 @@
 body {
 	background: #FFFFFF;
 	color: #757575;
-	font-family: Helvetica;
-	font-size: 15px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	line-height: 2;
-	position: absolute;
-	top: 0;
-	width: 100%;
+	font-family: "Montserrat";
+	font-size: 16px;
 }
 
-button,
-input,
-select,
-textarea {
-	box-shadow: none;
-	font-size: 100%;
-	margin: 0;
-	vertical-align: baseline;
-	vertical-align: middle;
-}
-
-a {
-	border: 0;
-	color: #777;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #555;
-	text-decoration: underline;
+button, input, select, textarea {
+	font-family: "Montserrat";
+	font-size: 16px;
 }
 
 .wrapper {
-
 	margin: 35px auto;
-	max-width: 90%;
-	overflow: hidden;
-	padding: 2% 5%;
-	position: relative;
-	text-align: left;
-	width: 500px;
+	width: 400px;
 }
 
 .name {
-	background: #ffffff;
-	margin: 35px auto;
+	margin: 25px auto;
 	max-width: 90%;
-	overflow: hidden;
-	padding: 2% 5%;
-	position: relative;
 	text-align: center;
-	width: 500px;
 	color: #4298d3;
 	font-family: "Montserrat";
 	font-size: 35px;
-	font-weight: 700;
 }
 
 input {
-
 	border-radius: 0;
-	border: 2px solid transparent;
+	border: 1px ;
 	line-height: normal;
-	overflow: visible;
-	padding: 14px 2%;
-}
-
-input:focus {
-	outline: 0;
+	padding: 15px 2%;
 }
 
 input[type="submit"],
 .submit {
-	color: #fff;
-	cursor: pointer;
+	color: #ffffff;
 	font-weight: 700;
-	padding: 14px 0;
+	padding: 15px 0;
 }
 
 .add-wrapper, .to-do-wrapper {
-	display: inline-block;
-	margin: 0 auto;
 	width: 100%;
 }
 
 .add-to-do {
-	background: #fff;
-	border-bottom-left-radius: 3px;
-	border-right: 2px solid #fff;
-	border-top-left-radius: 3px;
-	border: 2px solid #eee;
+	background: #ffffff;
+	border: 1px solid #eee;
 	color: #757575;
 	float: left;
 	height: 18px;
